@@ -99,6 +99,8 @@ button {
 .info .images img {
   width: 150px;
   height: 150px;
+  border: none;
+  border-radius: 8px;
 }
 
 .quote {
@@ -123,4 +125,37 @@ button {
   font-weight: 800;
   align-self: flex-end;
   padding: 0 150px;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 75px 100px 75px;
+}
+
+.sign-up .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 50px 100px;
+  border-radius: 8px;
+  gap: 150px;
+}
+
+.sign-up h1 {
+  font-size: 24px;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.sign-up p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+}
+
+.sign-up button {
+  border: 2px solid #e5e7eb;
 }
