@@ -72,3 +72,31 @@ button {
   width: 500px;
   height: 300px;
 }
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px 75px;
+}
+
+.info h1 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.info .images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  gap: 75px;
+  text-align: center;
+}
+
+.info .images img {
+  width: 150px;
+  height: 150px;
+}
