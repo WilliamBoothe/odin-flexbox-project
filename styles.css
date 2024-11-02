@@ -90,6 +90,7 @@ button {
   justify-content: center;
   align-items: center;
   padding: 75px 100px 75px;
+  gap: 50px;
 }
 
 .info h1 {
