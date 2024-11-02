@@ -42,7 +42,7 @@ button {
 
 .hero {
   background-color: #1f2937;
-  padding: 50px 100px 75px;
+  padding: 75px 100px 75px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -78,7 +78,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px 100px 75px;
+  padding: 75px 100px 75px;
 }
 
 .info h1 {
@@ -99,4 +99,28 @@ button {
 .info .images img {
   width: 150px;
   height: 150px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 75px 100px 75px;
+}
+
+.quote .text {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  padding: 0 150px;
+}
+
+.quote .byline {
+  font-size: 24px;
+  font-weight: 800;
+  align-self: flex-end;
+  padding: 0 150px;
 }
